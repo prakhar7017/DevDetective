@@ -15,19 +15,19 @@
     <div id="wrapper">
         <!-- header  -->
         <div class="header">
-            <h1 class="">DevDetective</h1>
+            <h1 class="title">DevDetective</h1>
 
             <!-- mode changer  -->
-            <div>
-                <p>Dark</p>
+            <div id="btn-mode">
+                <p id="mode-text">Dark</p>
                 <div>
-                    <img src="./assets/images/moon-icon.svg" alt="">
+                    <img src="./assets/images/moon-icon.svg" alt="" id="mode-icon">
                 </div>
             </div>
         </div>
 
         <!-- search-bar container -->
-        <div>
+        <div class="searchbar-container active">
             <!-- input feild -->
             <input type="text" placeholder="Enter a Github username...." required name="user-input" id="input">
 
@@ -38,42 +38,42 @@
 
             <!-- search button  -->
 
-            <button id="submit">Search</button>
+            <button id="submit" class="btn-search">Search</button>
         </div>
 
         <!-- profile container  -->
 
-        <div>
+        <div class="left-div">
             <!-- left div  -->
-            <div>
+            <div class="profile-content">
                 <!-- avatar holder  -->
-                <div>
+                <div class="profile-header">
                     <img src="#" alt="" id="avatar">
                 </div>
             </div>
 
             <!-- right div  -->
 
-            <div>
+            <div class="right-dev">
                 <!-- profile name  -->
-                <div>
+                <div class="profile-name">
                     <h2 id="name"></h2>
                     <!-- joined date  -->
                     <p id="date"></p>
                 </div>
 
                 <!-- profile link  -->
-                <div>
+                <div class="profile-link">
                     <a href="#" target="_blank" rel="noopener noreferrer" id="user"></a>
                 </div>
 
                 <!-- bio  -->
-                <div>
+                <div class="profile-bio">
                     <p id="bio"></p>
                 </div>
 
                 <!-- repos -->
-                <div>
+                <div class="profile-stars">
                     <div>
                         <p>Repos</p>
                         <p id="repos"></p>
@@ -91,7 +91,7 @@
                 </div>
 
                 <!-- share link  -->
-                <div>
+                <div class="profile-share-links">
                     <!-- location  -->
                     <div>
                         <img src="./assets/images/location-icon.svg" alt="">
